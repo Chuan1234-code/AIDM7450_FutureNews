@@ -65,7 +65,7 @@ body {
 }
 
 .hero h2 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin-bottom: 1rem;
     background: linear-gradient(45deg, #00ffff, #ff00ff);
     -webkit-background-clip: text;
@@ -184,105 +184,6 @@ body {
     text-decoration: none;
 }
 
-/* 文章详情页样式 */
-.article-detail {
-    max-width: 800px;
-    margin: 0 auto;
-}
-
-.breadcrumb {
-    color: #ccc;
-    margin-bottom: 1rem;
-}
-
-.breadcrumb a {
-    color: #00ffff;
-    text-decoration: none;
-}
-
-.article-header {
-    margin-bottom: 2rem;
-}
-
-.article-header h1 {
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
-    background: linear-gradient(45deg, #00ffff, #ff00ff);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-}
-
-.article-meta {
-    display: flex;
-    gap: 2rem;
-    color: #ccc;
-    font-size: 0.9rem;
-}
-
-.featured-image {
-    margin-bottom: 2rem;
-}
-
-.featured-image img {
-    width: 100%;
-    border-radius: 10px;
-}
-
-.image-caption {
-    text-align: center;
-    color: #888;
-    font-size: 0.8rem;
-    margin-top: 0.5rem;
-}
-
-.article-body {
-    font-size: 1.1rem;
-    line-height: 1.8;
-}
-
-.article-body h2 {
-    margin: 2rem 0 1rem 0;
-    color: #00ffff;
-}
-
-.article-body ul {
-    margin: 1rem 0;
-    padding-left: 2rem;
-}
-
-.article-body li {
-    margin-bottom: 0.5rem;
-}
-
-.future-quote {
-    border-left: 4px solid #00ffff;
-    padding-left: 1rem;
-    margin: 2rem 0;
-    font-style: italic;
-    color: #ccc;
-}
-
-.article-navigation {
-    display: flex;
-    justify-content: space-between;
-    margin: 3rem 0;
-}
-
-.nav-btn {
-    padding: 0.75rem 1.5rem;
-    border: 1px solid #333;
-    color: #ccc;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: all 0.3s ease;
-}
-
-.nav-btn:hover {
-    border-color: #00ffff;
-    color: #00ffff;
-}
-
 /* 页脚 */
 .footer {
     text-align: center;
@@ -305,10 +206,6 @@ body {
     
     .news-grid {
         grid-template-columns: 1fr;
-    }
-    
-    .article-header h1 {
-        font-size: 1.8rem;
     }
     
     .categories {
